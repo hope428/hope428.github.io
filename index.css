@@ -13,10 +13,14 @@ body {
     flex-direction: column;
     margin: 5em;
     padding: 5em;
-    max-width: 400px;
+    max-width: 500px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 4px;
     background-color: rgb(43, 43, 66);
+}
+
+.header {
+    color: yellow;
 }
 
 a {
@@ -24,7 +28,7 @@ a {
     color: yellow;
 }
 
-a:hover {
+.github:hover {
     color: orange;
 }
 
@@ -34,4 +38,27 @@ div.skills {
 
 div.item {
     color: rgb(255, 255, 136);
+}
+
+.project {
+    background-color: yellow;
+    color: rgb(54, 54, 90);
+    font-weight: bold;
+    margin: 2px;
+}
+
+.project:hover {
+    background-color: orange;
+}
+
+button.item {
+    background-color: rgb(255, 255, 136);
+    margin: 2px;
+    font-weight: 500;
+}
+
+.email {
+    font-style: italic;
+    color: orange;
+    
 }
